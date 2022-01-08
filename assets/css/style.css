@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #main {
-    margin-left: 40px;
+    margin-left: 0px;
   }
 }
 /*--------------------------------------------------------------
@@ -812,6 +812,6 @@ img{
   #footer {
     position: static;
     width: auto;
-    padding-right: 20px 15px;
+    padding-right: 0px 0px;
   }
 }
