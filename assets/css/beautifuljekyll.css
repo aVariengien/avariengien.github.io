@@ -97,6 +97,12 @@ hr.small {
   border-radius: 0.1875rem;
 }
 
+@media only screen and (max-width: 500px) {
+  .avatar-container {
+    display: none;
+  }
+}
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
