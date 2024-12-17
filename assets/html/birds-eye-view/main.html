@@ -1,0 +1,102 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Navigation with iframes</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        #nav {
+            width: 220px;
+            background-color: #ffffff;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #content {
+            flex: 1;
+            padding: 20px;
+        }
+        .nav-item {
+            margin: 10px 0;
+            cursor: pointer;
+            position: relative;
+        }
+        .nav-item img {
+            width: 170px;
+            height: 170px;
+            transition: all 0.3s ease;
+        }
+        .nav-item.active::after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 3px solid #007bff;
+            pointer-events: none;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: none;
+        }
+        iframe.active {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div class="nav-item" data-target="iframe1">
+            <img src="../../img/birds-eye-view/mmlu.png" alt="MMLU">
+        </div>
+        <div class="nav-item" data-target="iframe3">
+            <img src="../../img/birds-eye-view/weekend_brainstorming.png" alt="Weekend Brainstorming">
+        </div>
+        <div class="nav-item" data-target="iframe2">
+            <img src="../../img/birds-eye-view/voyage_of_the_beaggle.png" alt="Voyage of the Beagle">
+        </div>
+
+    </div>
+    <div id="content">
+        <iframe id="iframe1" src="mmlu.html"></iframe>
+        <iframe id="iframe2" src="voyage_of_the_beaggle.html"></iframe>
+        <iframe id="iframe3" src="weekend_brainstorming.html"></iframe>
+    </div>
+
+
+    <script>
+        const navItems = document.querySelectorAll('.nav-item');
+        const iframes = document.querySelectorAll('iframe');
+
+        navItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+
+                // Hide all iframes and remove active class from nav items
+                iframes.forEach(iframe => iframe.classList.remove('active'));
+                navItems.forEach(navItem => navItem.classList.remove('active'));
+
+                // Show the targeted iframe and add active class to clicked nav item
+                document.getElementById(targetId).classList.add('active');
+                this.classList.add('active');
+            });
+        });
+
+        // Activate the first iframe by default
+        document.getElementById('iframe1').classList.add('active');
+        navItems[0].classList.add('active');
+    </script>
+</body>
+</html>

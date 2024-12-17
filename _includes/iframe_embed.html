@@ -1,0 +1,28 @@
+
+
+<div id="{{ include.container_id }}" class="full-width-iframe-container"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var container = document.getElementById('{{ include.container_id }}');
+    var iframe = document.createElement('iframe');
+    iframe.src = '{{ site.baseurl }}{{ include.iframe_src }}';
+    iframe.style.width = '{{ include.iframe_width }}';
+    iframe.style.height = '80vh';
+    iframe.style.border = 'none';
+    iframe.style.display = 'block';
+    iframe.style.margin = '0 auto';
+    container.appendChild(iframe);
+});
+</script>
+
+<style>
+.full-width-iframe-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+</style>
