@@ -4,7 +4,7 @@ title: "Bird's eye view"
 subtitle: An interactive representation to see large collection of text "from above".
 mathjax: true
 excerpt: How do you make sense of a 300-page book in 15 minutes? Or get insights from thousands of news articles without relying on recommendation algorithms?
-hide_from_list: true
+hide_from_list: false
 ---
 
 {: .box-note}
