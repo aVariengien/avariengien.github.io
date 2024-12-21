@@ -3,6 +3,7 @@ layout: post
 title: An alive blackboard
 subtitle: A short story exploring a visual mentoring relationship.
 mathjax: true
+permalink: an-alive-blackboard
 ---
 
 "Time for homework! 📚" - I read the notification on the top left of my field of vision. I close the simulation of the remotely controlled pirate ship I was crafting. I put down my haptic gloves on my bed, and turn off the 3D hologram projector. 

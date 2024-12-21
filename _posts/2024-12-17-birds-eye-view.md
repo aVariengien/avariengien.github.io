@@ -5,11 +5,12 @@ subtitle: An interactive representation to see large collection of text "from ab
 mathjax: true
 excerpt: How do you make sense of a 300-page book in 15 minutes? Or get insights from thousands of news articles without relying on recommendation algorithms?
 hide_from_list: false
+permalink: birds-eye-view
 ---
 
 {: .box-note}
 You can navigate the map and hover the points, click on a point to display its text on the left. For the best experience, consider viewing on a laptop or desktop.
-An online application to create such visualization is available [here](https://birds-eye-view.streamlit.app/).
+An online application to create such visualization is available [here](https://birds-eye-view.fly.dev/).
 
 {% include iframe_embed.html 
    container_id="main-plot" 
@@ -42,7 +43,7 @@ Bird's eye view transforms documents into interactive maps through six steps:
 4. **Emoji Assignment**: Each point is assigned representative emojis based on its dot product between the chunk embedding and the emoji embeddings.
 6. **Visualization**: The result is rendered as an interactive plot where:
     - Points represent chunks of text
-    - Position reflects semantic similarity
+    - Position reflects semantic similarity (the axis units are abitrary).
     - Emojis provide quick visual context
     - Lines show document flow
 
@@ -119,11 +120,12 @@ The next section will show you how to integrate these visualization techniques i
 
 ## Web Interface
 
-The simplest way to start is through the [web interface](https://birds-eye-view.streamlit.app/). You'll see a simple input field where you can enter URLs of documents you want to visualize. The tool supports:
+The simplest way to start is through the [web interface](https://birds-eye-view.streamlit.app/) powered by Streamlit. You'll see a simple input field where you can enter URLs of documents you want to visualize. The tool supports:
 - HTML format (preferred, preserves rich text)
 - PDF documents (text extraction only)
 - Plain text files
 - JSON files with specific formatting (see the code example below).
+In the online app, only web urls are supported. You can use path to local files if you run the app locally!
 
 Processing takes around 30 seconds for a 400-page book. For a quick start, you can explore pre-computed examples from the home menu.
 
@@ -199,9 +201,9 @@ Several promising directions for development emerge:
 
 # The Broader Picture: Building Alternative Futures for AI Development
 
-Bird's eye view points to a broader possibility: AI tools that enhance rather than replace human cognitive practices. Current AI development focuses heavily on increasingly autonomous and general agents - entities one can assign tasks to. This direction is driven by major AI labs racing towards artificial general intelligence (AGI), motivated by economic incentives and a particular vision of progress.
+Bird's eye view points to a broader possibility: AI tools that enhance rather than replace human cognitive practices. Current AI development focuses heavily on increasingly autonomous and general agents. This direction is driven by major AI labs racing towards artificial general intelligence (AGI), motivated by economic incentives and a particular vision of progress.
 
-This narrow focus on agent AI creates an imagination shortage in the field. While the pursuit of increasingly powerful autonomous agents might be the fastest path to transformative AI, it's also a risky one. We currently lack robust solutions for making such systems reliably safe, and we cannot solely trust private actors to develop these increasingly powerful artifacts.
+This narrow focus on agent AI creates an _imagination shortage_ in the field. While the pursuit of increasingly powerful autonomous agents might be the fastest path to transformative AI, it's also a risky one. 
 
 We need alternative development paths that:
 - Provide immediate societal benefits that scale safely
