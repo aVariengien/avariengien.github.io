@@ -31,7 +31,7 @@ This post will first succinctly explain how bird's eye view works, then demonstr
 
 I encourage you to interact with the visualizations throughout this post - they are the main feature, and exploring them directly will give you a better understanding of the tool than any written description.
 
-The code is [open-source](https://github.com/aVariengien/birds-eye-view), and you can create your own semantic maps using [this web application](https://birds-eye-view.streamlit.app/).
+The code is [open-source](https://github.com/aVariengien/birds-eye-view), and you can create your own semantic maps using [this web application](https://birds-eye-view.fly.dev/).
 
 # How Bird's Eye View Works
 
@@ -120,7 +120,7 @@ The next section will show you how to integrate these visualization techniques i
 
 ## Web Interface
 
-The simplest way to start is through the [web interface](https://birds-eye-view.streamlit.app/) powered by Streamlit. You'll see a simple input field where you can enter URLs of documents you want to visualize. The tool supports:
+The simplest way to start is through the [web interface](https://birds-eye-view.fly.dev/) powered by Streamlit. You'll see a simple input field where you can enter URLs of documents you want to visualize. The tool supports:
 - HTML format (preferred, preserves rich text)
 - PDF documents (text extraction only)
 - Plain text files
