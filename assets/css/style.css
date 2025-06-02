@@ -196,6 +196,7 @@ section {
   border-left: 2px solid #36393f;
   position: relative;
 }
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -216,7 +217,9 @@ section {
 
 .resume .resume-item p {
   font-size: 16px;
+  padding: 2px 2px;
 }
+
 
 .resume .resume-item ul {
   padding-left: 20px;
