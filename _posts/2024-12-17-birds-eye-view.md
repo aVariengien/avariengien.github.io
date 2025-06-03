@@ -120,7 +120,7 @@ The next section will show you how to integrate these visualization techniques i
 
 ## Web Interface
 
-The simplest way to start is through the [web interface](https://birds-eye-view.fly.dev/) powered by Streamlit. You'll see a simple input field where you can enter URLs of documents you want to visualize. The tool supports:
+The simplest way to start is through the [web interface](https://birds-eye-view-app.streamlit.app/) powered by Streamlit. You'll see a simple input field where you can enter URLs of documents you want to visualize. The tool supports:
 - HTML format (preferred, preserves rich text)
 - PDF documents (text extraction only)
 - Plain text files
