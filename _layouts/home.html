@@ -6,8 +6,11 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 
+
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+
 <ul class="posts-list list-unstyled" role="list">
+
   {% for post in posts %}
     {% unless post.hide_from_list %}
       <li class="post-preview">
@@ -122,3 +125,5 @@ layout: page
   {% endif %}
 </ul>
 {% endif %}
+
+{% include subscribe.html %}

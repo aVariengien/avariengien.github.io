@@ -60,9 +60,12 @@ layout: base
         </div>
       {% endif %}
 
+      {% include subscribe.html %}
+
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
+      
 
       <ul class="pagination blog-pager">
         {% if page.previous.url %}
