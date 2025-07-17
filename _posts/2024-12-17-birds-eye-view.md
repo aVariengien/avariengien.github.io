@@ -10,7 +10,7 @@ permalink: birds-eye-view
 
 {: .box-note}
 You can navigate the map and hover the points, click on a point to display its text on the left. For the best experience, consider viewing on a laptop or desktop.
-An online application to create such visualization is available [here](https://birds-eye-view.fly.dev/).
+An online application to create such visualization is available [here](https://birds-eye-view-app.streamlit.app/). Code available [here](https://github.com/aVariengien/birds-eye-view).
 
 {% include iframe_embed.html 
    container_id="main-plot" 
@@ -31,7 +31,7 @@ This post will first succinctly explain how bird's eye view works, then demonstr
 
 I encourage you to interact with the visualizations throughout this post - they are the main feature, and exploring them directly will give you a better understanding of the tool than any written description.
 
-The code is [open-source](https://github.com/aVariengien/birds-eye-view), and you can create your own semantic maps using [this web application](https://birds-eye-view.fly.dev/).
+The code is [open-source](https://github.com/aVariengien/birds-eye-view), and you can create your own semantic maps using [this web application](https://birds-eye-view-app.streamlit.app/).
 
 # How Bird's Eye View Works
 
