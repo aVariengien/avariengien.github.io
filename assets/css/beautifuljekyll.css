@@ -1026,6 +1026,11 @@ pre {
   margin: 0 auto;
 }
 
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Search bar */
 #beautifuljekyll-search-overlay {
   font-family: var(--header-font);
