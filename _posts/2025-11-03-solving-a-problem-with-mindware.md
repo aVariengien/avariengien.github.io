@@ -47,7 +47,7 @@ My current solution relies on this underrated skill. I picked a clearing in a fo
 
 ![img1](/assets/img/mindware/palace.png){: .center width="50%"}
 
-To store an idea at night, I create a mental pointer to the idea and drop it near the next empty landmark along the path. Good pointers are characters that interact with the environment in one way or another. For instance, if I want to remember to message to a friend, I’ll imagine this friend in the clearing with a letter in their hands, putting a nail in the trunk of a tree to display it.
+To store an idea at night, I create a mental pointer to the idea and drop it near the next empty landmark along the path. Good pointers are characters that interact with the environment in one way or another. For instance, if I want to remember to message a friend, I’ll imagine this friend in the clearing with a letter in their hands, putting a nail in the trunk of a tree to display it.
 
 In the morning, I naturally remember that I used my mental palace at night and mentally walk through the path to gather the pointers I left there.
 
