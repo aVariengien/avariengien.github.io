@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solving a problem with mindware."
+title: "Solving a problem with mindware"
 mathjax: true
 excerpt: "I am in bed, about to fall asleep and I have an idea. One of those ideas that shines a special light; it feels like a great idea."
 hide_from_list: false
