@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Our ancestors didn't know their faces"
+subtitle: "A reminder to keep our identity small"
 mathjax: true
 excerpt: "When you are born, nobody knows your face. And in particular, you don't know your face."
 hide_from_list: false
@@ -32,4 +33,4 @@ We all have had this cringe experience: is this what _I_ sound like? Our sense o
 
 Today, our face feels like a universal way to say "this is me." It shows how flexible our sense of self is. It is like a bag whose boundary can expand to include objects through ownership, people from our tribe, or ideologies and beliefs.
 
-Knowing our ancestors didn't know their faces can help us [keep our identity small](https://paulgraham.com/identity.html). It can allow us take a step back when we hold on strongly to a cause that feels so close to our hearts, so close to who we are. Does letting this go feel worse than forgetting your face?
+Knowing our ancestors didn't know their faces can help us [keep our identity small](https://paulgraham.com/identity.html). It can allow us to take a step back when we hold on strongly to a cause that feels so close to our hearts, so close to who we are. Does letting this go feel worse than forgetting your face?
