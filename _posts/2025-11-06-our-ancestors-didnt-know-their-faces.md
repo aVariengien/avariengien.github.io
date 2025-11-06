@@ -8,7 +8,7 @@ hide_from_list: false
 permalink: our-ancestors-didnt-know-their-faces
 thumbnail-img: /assets/img/face/devine_tete.png
 ---
-EDIT: From feedback on the post after its publication, I underestimated how easy it is to see your reflection on water. It is likely our ancestors did in fact know their face, maybe a bit less clearly than we do today.
+EDIT: Thanks to feedback on the post after its publication, I underestimated how easy it is to see your reflection in water. It is likely our ancestors did in fact know their face, maybe a bit less clearly than we do today. Interpret the post more as a metaphor!
 
 When you are born, nobody knows your face. And in particular, _you_ don't know your face.
 
