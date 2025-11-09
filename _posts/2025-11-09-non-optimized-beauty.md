@@ -35,7 +35,7 @@ At first, this thought experiment feels like drawing the boundary between minera
 
 One could argue that mineral shapes like snowflakes or mountain landscapes have been part of the human environment forever, and that humans' sense of beauty evolved to find them beautiful. The optimization happened on the side of the eye, not on the side of the object, but the perception has been optimized.
 
-So perhaps one of the best examples of non-optimized beauty is something like the [Hubble picture of the Pillars of Creation](https://en.wikipedia.org/wiki/Pillars_of_Creation). Clearly, this is not something we could look at until recently, nor is it something whose appearance has been influenced by our presence (if we set aside the careful choice of artificial coloring used by the astroophotographers).
+So perhaps one of the best examples of non-optimized beauty is something like the [Hubble picture of the Pillars of Creation](https://en.wikipedia.org/wiki/Pillars_of_Creation). Clearly, this is not something we could look at until recently, nor is it something whose appearance has been influenced by our presence (if we set aside the careful choice of artificial coloring used by the astrophotographers).
 
 **Departing Thoughts**
 
