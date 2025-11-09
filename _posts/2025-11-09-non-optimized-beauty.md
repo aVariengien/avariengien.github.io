@@ -2,13 +2,13 @@
 layout: post
 title: "Non-optimized beauty"
 mathjax: true
-excerpt: "Would the world look beautiful without eyes? Not in the sense of being blind. I mean to consider a world without eyes, where evolution never developed organs that percieve the world through sensing light."
+excerpt: "Would the world look beautiful without eyes? Not in the sense of being blind. I mean to consider a world without eyes, where evolution never developed organs that perceive the world through sensing light."
 hide_from_list: false
 permalink: non-optimized-beauty
 thumbnail-img: /assets/img/beauty/non-optimized-beauty.png
 ---
 
-Would the world look beautiful without eyes? Not in the sense of being blind. I mean to consider a world without eyes, where evolution never developed organs that percieve the world through sensing light. If you placed humans in this world, what would they find beautiful?
+Would the world look beautiful without eyes? Not in the sense of being blind. I mean to consider a world without eyes, where evolution never developed organs that perceive the world through sensing light. If you placed humans in this world, what would they find beautiful?
 
 To begin with an easy case, we can start by removing life entirely. They could look up at the stars with telescopes and marvel at the spiral galaxies, the craters of the Moon, and the clouds of interstellar dust.
 
