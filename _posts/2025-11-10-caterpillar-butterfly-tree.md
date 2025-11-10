@@ -5,7 +5,10 @@ mathjax: true
 excerpt: "I was once walking and decided to take a break, lying in the grass. With my eyes closed, I was swimming in the warm light of a late summer afternoon when I overheard whispers coming from above me."
 hide_from_list: false
 permalink: caterpillar-butterfly-tree
+thumbnail-img: /assets/img/dialogue/front.png
 ---
+![img1](/assets/img/dialogue/front.png){: .center width="70%"}
+<div style="text-align: center;"><i>Plate 53 of the Metamorphosis Insectorum Surinamensium by Maria Sibylla Merian, 1705</i></div>
 
 I was once walking and decided to take a break, lying in the grass. With my eyes closed, I was swimming in the warm light of a late summer afternoon when I overheard whispers coming from above me. There were voices in the cherry tree that offered me its shadow, the voices of a caterpillar talking to a butterfly.
 
