@@ -145,7 +145,7 @@ Following philosopher L. A. Paul’s terminology, this is an instance of a trans
 ### 3.2 Practice develops background knowledge
 
 ![img](/assets/img/thick-practice/background_knowledge.png){: .center width="80%"}
-<div style="text-align: center;"><i>The effect of practices are happening in the background, strenghtening the man in the picture.</i></div>
+<div style="text-align: center;"><i>The effect of practice happens in the background, strengthening the man in the picture.</i></div>
 
 Imagine learning the guitar and focusing on moving your fingers from one chord to another. After a few days of practice, it feels like your fingers move by themselves, and you start directing your conscious effort to another challenge. Movements that are in the foreground at one moment in time get integrated through practice into internalized knowledge, to form background skills that operate unconsciously (the man in the meme above).
 
