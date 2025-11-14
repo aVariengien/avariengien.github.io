@@ -5,7 +5,7 @@ subtitle: "Seeing your life as a sculpture."
 mathjax: true
 excerpt: "This is the trace left by a larva of the Golden Pygmy moth. This species is a leaf miner; it lays its eggs on the surface of a leaf, and the larva lives trapped in a flatworld nibbling the soft tissues of its host from the inside."
 hide_from_list: false
-permalink: mantras
+permalink: universe-point-of-view
 thumbnail-img: /assets/img/universe/leaf.png
 ---
 
