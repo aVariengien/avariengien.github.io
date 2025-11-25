@@ -6,7 +6,7 @@ mathjax: true
 excerpt: "Here is a list of digital (and physical!) artifacts to create connections between friends, increase conversation bandwidth, or simply enjoy pleasant aesthetic experiences."
 hide_from_list: false
 permalink: artifacts-i-d-like-to-try
-thumbnail-img: /assets/img/artifacts/friend.webp
+thumbnail-img: /assets/img/artifact/friend.webp
 ---
 
 Here is a list of digital (and physical!) artifacts to create connections between friends, increase conversation bandwidth, or simply enjoy pleasant aesthetic experiences. I'm not sure if they are good ideas, but they have been fueling my curiosity for long enough that I've written several series of notes about each of them.
@@ -22,7 +22,7 @@ Goal: Creating [ambient co-presence](https://maggieappleton.com/ambient-copresen
 
 The friend-o-phone is an object meant for living rooms. It works as a simple voicemail box. It is a welcoming object with only two buttons and one LED.
 
-![img](/assets/img/artifact/friend.png){: .center width="70%"}
+![img](/assets/img/artifact/friend.webp){: .center width="70%"}
 <div style="text-align: center;"><i>Visual vibe for the friend-o-phone. Funny enough, this is <a href="https://www.ebay.co.uk/itm/177505103496?norover=1&siteid=3&mkevt=1&mkcid=16&chn=psoc">a napkin box</a></i></div>
 
 
@@ -48,7 +48,7 @@ The conversation flywheel is a visual interface that lives in the peripheral vis
 
 When the topic changes, the interface bundles the quotes into a peripheral circle labeled with a short handle and an icon. The focus space becomes empty, ready to receive the new topic. If an old topic surfaces again, the corresponding peripheral circle gets back to the focus space and expands to reveal the trails from the previous discussion about the same topic. The participants can also deliberately expand the circles through voice control by simply saying the names of the circles.
 
-![img](/assets/img/artifact/flywheel.png){: .center width="70%"}
+![img](/assets/img/artifact/flywheel.png){: .center width="90%"}
 <div style="text-align: center;"><i>Interface mockup for the conversation flywheel</i></div>
 
 
@@ -75,8 +75,8 @@ Every time you come back to this timeline, the spatial organization evolves. May
 
 When you need to recall an item from your notes, you know spatially where it should be located, and you can find it reliably. 
 
-![img](/assets/img/artifact/timeline.png){: .center width="70%"}
-<div style="text-align: center;"><i>Visual vibe for the friend-o-phone. Funny enough, this is <a href="https://www.ebay.co.uk/itm/177505103496?norover=1&siteid=3&mkevt=1&mkcid=16&chn=psoc">a napkin box</a></i></div>
+![img](/assets/img/artifact/timeline.png){: .center width="90%"}
+<div style="text-align: center;"><i>Mockup for the river timeline.</i></div>
 
 Variations & extensions:
 * **Data integration.** We can imagine augmenting the timeline with data from different sources. Calendar events and photos picked from the gallery could be used to facilitate the emulation of your past self.
@@ -85,8 +85,8 @@ Variations & extensions:
 ### **Latent growth.**
 Goal: Create aesthetic experiences of objects that don't fit any categories.
 
-
-*Still from a [Stable Diffusion latent space exploration](https://www.youtube.com/watch?v=HZ6dV_YFN_I).*
+![img](/assets/img/artifact/latent.jpg){: .center width="70%"}
+<div style="text-align: center;"><i>Still from a <a href="https://www.youtube.com/watch?v=HZ6dV_YFN_I">Stable Diffusion latent space exploration.</a></i></div>
 
 
 [Latent space explorations](https://www.youtube.com/watch?v=HZ6dV_YFN_I) are these smooth journeys that interpolate through the hidden dimensions of image diffusion models. As you watch them, you feel like all the shapes you see make sense, but you are unable to name what they are when you pause the video. 
