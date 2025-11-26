@@ -108,7 +108,7 @@ After interacting with the socratic content, your contributions are added to the
 
 The initial author retains some editorial power. For instance, they can decide whether a certain disagreement counts as a valid limitation of the article or if it should be treated as a misinterpretation.
 
-Some more radical content cairns has a life of its own and does not have any author. They are living memes that gain life every time they are used, are tagged in online conversations, and respond without being bound to any platform.
+Some content cairns take a life of their own such that it doesn't make sense to say they have been authored by anyone. They are living memes that gain life every time they are used, are tagged in online conversations, and respond without being bound to any platform.
 
 ![img](/assets/img/frames/cairn.png){: .center width="60%"}
 <div style="text-align: center;"><i>Anyone can add their contributions to the cairn to guide future voyagers. <a href="https://en.wikipedia.org/wiki/Cairn#/media/File:Rock_Cairn.jpg">Source.</a></i></div>
