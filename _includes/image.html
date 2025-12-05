@@ -1,4 +1,4 @@
-<figure>
-  <img src="{{ include.src }}" alt="{{ include.alt }}">
-  <figcaption>{{ include.caption }}</figcaption>
+<figure style="text-align: center;">
+  <img src="{{ include.src }}" alt="{{ include.alt }}"{% if include.width %} style="width: {{ include.width }}"{% endif %}>
+  <figcaption style="text-align: center; font-style: italic; font-size: 0.9em;">{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>

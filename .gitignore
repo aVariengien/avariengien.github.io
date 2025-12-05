@@ -6,4 +6,6 @@ vendor
 Gemfile.lock
 .DS_Store
 */.DS_Store
-substack-migrator/*
+substack-migrator/.venv
+substack-migrator/*.toml
+substack-migrator/uv.lock

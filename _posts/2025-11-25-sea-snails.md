@@ -25,9 +25,7 @@ On top of the challenge of making the fingerprint from the cocaine-shaped molecu
 To address these challenges, a [line of research initiated in the 2000s](https://pmc.ncbi.nlm.nih.gov/articles/PMC29369/) used a carrier called KLH (Keyhole Limpet Hemocyanin). It is a protein extracted from the giant keyhole limpet, a peaceful aquatic snail living along the coast of western North America.
 
 
-![img](/assets/img/sea-snails/snail.jpg){: .center width="80%"}
-<div style="text-align: center;"><i>The giant keyhole limpet with its soft black mantle extended over its shell.</i></div>
-
+{% include image.html src="/../assets/img/sea-snails/snail.jpg" alt="" caption="The giant keyhole limpet with its soft black mantle extended over its shell. [Source.](https://en.wikipedia.org/wiki/Megathura_crenulata#/media/File:GiantKeyholeLImpet.JPG)" width="80%" %}
 
 The protein combines many desirable characteristics. First, it is large enough to create a strong immune reaction. Second, it has many spots to attach small molecules, maximizing the carrier/target surface ratio. Third, it comes from an organism that is phylogenetically distant from humans, making it unlikely that its shape will resemble human proteins.
 
