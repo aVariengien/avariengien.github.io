@@ -73,7 +73,3 @@ If you are interested in taking a similar challenge, feel free to [get in touch]
 It is now time to rest. It has been a tiering challenge, working between three to five hours every day on writing, while starting [a collaboration with Francisco,](https://alexandrevariengien.com/exoskeleton-for-communities) working on Twitter data analysis. I will not keep this pace in the future, but I am still likely to maintain a rhythm much higher than before the challenge.
 
 Thank you to everyone who has been reading and engaging with my posts, and to my friends and partner for their support. Stay posted for future writings!
-
-Subscribe to receive my future posts
-
-Subscribe
