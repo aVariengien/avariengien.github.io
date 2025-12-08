@@ -22,7 +22,3 @@ The lab can also host biology experiments. When making a sourdough starter, we a
 The same room also works as an intermittent psychology lab. This is where we discover that other humans can have radically different subjective experiences of the same physical reality. “What? This delicious coriander taste like soap to you?” We learn that our tastes and values are not fixed, but evolve over time. We can even deliberately cultivate new tastes! The 10-year-old me would be very surprised to learn that I now enjoy drinking this bitter black liquid.
 
 The result of this hard work is something very few scientific experiments can give you: good food, happiness, self-confidence in your ability to fulfil your needs, and importantly, a means of communicating love that goes beyond words. “I cooked the chocolate cake to keep the inside liquid, just like you like it. Have a bite.”
-
-An invitation to follow my future word recipes
-
-Subscribe
