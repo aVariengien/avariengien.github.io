@@ -9,3 +9,6 @@ Gemfile.lock
 substack-migrator/.venv
 substack-migrator/*.toml
 substack-migrator/uv.lock
+substack-migrator/*.json
+substack-migrator/.mypy_cache
+substack-migrator/.claude

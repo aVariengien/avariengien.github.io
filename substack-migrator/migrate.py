@@ -10,6 +10,7 @@ Example:
 """
 
 import argparse
+import json
 import os
 import re
 import sys
@@ -53,19 +54,66 @@ def extract_post_data(soup: BeautifulSoup, url: str) -> dict:
     subtitle_elem = soup.find('h3', class_='subtitle') or soup.find('p', class_='subtitle')
     data['subtitle'] = subtitle_elem.get_text(strip=True) if subtitle_elem else ""
     
-    # Extract date from meta or URL
+    # Extract date - try multiple sources
+    data['date'] = None
+    
+    # 1. Try article:published_time meta tag
     date_meta = soup.find('meta', property='article:published_time')
     if date_meta and date_meta.get('content'):
         date_str = date_meta['content'][:10]  # YYYY-MM-DD
         data['date'] = datetime.strptime(date_str, '%Y-%m-%d')
-    else:
-        # Try to find date in the page
+    
+    # 2. Try JSON-LD structured data (common in Substack)
+    if not data['date']:
+        for script in soup.find_all('script', type='application/ld+json'):
+            try:
+                ld_data = json.loads(script.string)
+                # Handle both single object and array of objects
+                if isinstance(ld_data, list):
+                    for item in ld_data:
+                        if item.get('datePublished'):
+                            date_str = item['datePublished'][:10]
+                            data['date'] = datetime.strptime(date_str, '%Y-%m-%d')
+                            break
+                elif ld_data.get('datePublished'):
+                    date_str = ld_data['datePublished'][:10]
+                    data['date'] = datetime.strptime(date_str, '%Y-%m-%d')
+                if data['date']:
+                    break
+            except (json.JSONDecodeError, ValueError, KeyError):
+                continue
+    
+    # 3. Try time element with datetime attribute
+    if not data['date']:
         time_elem = soup.find('time')
         if time_elem and time_elem.get('datetime'):
             date_str = time_elem['datetime'][:10]
             data['date'] = datetime.strptime(date_str, '%Y-%m-%d')
-        else:
-            data['date'] = datetime.now()
+    
+    # 4. Try og:published_time meta tag
+    if not data['date']:
+        og_meta = soup.find('meta', property='og:article:published_time')
+        if og_meta and og_meta.get('content'):
+            date_str = og_meta['content'][:10]
+            data['date'] = datetime.strptime(date_str, '%Y-%m-%d')
+    
+    # 5. Look for date in post header/info sections
+    if not data['date']:
+        # Substack often has date in a specific class
+        date_elem = soup.find(class_='post-date') or soup.find(class_='pencraft')
+        if date_elem:
+            # Try to parse common date formats like "Jan 15, 2024"
+            date_text = date_elem.get_text(strip=True)
+            for fmt in ['%b %d, %Y', '%B %d, %Y', '%Y-%m-%d', '%d %b %Y']:
+                try:
+                    data['date'] = datetime.strptime(date_text, fmt)
+                    break
+                except ValueError:
+                    continue
+    
+    # Warn if no date found (leave as None)
+    if not data['date']:
+        print("Warning: Could not extract date from post", file=sys.stderr)
     
     # Generate slug and permalink
     data['slug'] = slugify(data['title'])
@@ -311,7 +359,7 @@ def migrate_post(url: str, output_dir: Path, assets_dir: Path,
     markdown = f"{front_matter}\n\n{content}\n"
     
     # Generate filename
-    date_str = data['date'].strftime('%Y-%m-%d')
+    date_str = data['date'].strftime('%Y-%m-%d') if data['date'] else 'unknown-date'
     filename = f"{date_str}-{data['slug']}.md"
     output_path = output_dir / filename
     
