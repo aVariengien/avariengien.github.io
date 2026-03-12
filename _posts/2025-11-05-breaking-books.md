@@ -47,7 +47,9 @@ Not only do you leave with a deeper internalization of a piece of knowledge, but
 
 ## **Introducing Breaking Books**
 
-A friend and I designed a tool called Breaking Books to turn a non-fiction book into a playground for *this* way of learning. No participant needs to read the book ahead of time. They will have to mobilize the knowledge from the book on the spot and bring it to life by debating together over the course of a 2-hour session. The goal is not to replace the experience of reading a book but to add a new option to connect with humanity's greatest body of knowledge.
+A friend and I designed a tool called Breaking Books to turn a non-fiction book into a playground for *this* way of learning. No participant needs to read the book ahead of time. They will have to mobilize the knowledge from the book on the spot and bring it to life by debating together over the course of a 2-hour session. **The goal is not to replace the experience of reading a book** but to add a new option to connect with humanity's greatest body of knowledge. 
+
+Sometimes a Breaking Books is facilitated by a friend that wants to share their excitement about a book they read. It's also common to leave a session wanting to read the book to get deeper into the meat of the arguments.
 
 Breaking Books trades off some depth and immersion into the author's universe to allow space for social interactions. Sometimes, the best takeaway from a session is an example your friend brought up that you would never have learned otherwise!
 
