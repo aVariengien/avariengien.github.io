@@ -3,7 +3,7 @@ layout: post
 title: "What makes fresh information juicy?"
 subtitle: "And how we could make archives feel fresh."
 mathjax: true
-excerpt: "Newspaperby Robert Gober, 1992."
+excerpt: "Over the past months, I worked with xiq to leverage the value of the Community Archive, a collection of 13M tweets gathered over the past 10 years."
 hide_from_list: false
 permalink: what-makes-fresh-information-juicy
 thumbnail-img: /assets/img/what-makes-fresh-information-juicy/image-0.jpg
